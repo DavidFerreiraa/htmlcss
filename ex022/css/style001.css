@@ -1,0 +1,19 @@
+div.quadrado {
+
+    display: inline-block; /* Mantem as divs na mesma linha */
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 10px 0px;
+    width: 300px;
+    height: 300px;
+}
+
+div#q1{
+    background-image: radial-gradient(circle at 110% , red, yellow, orange, black)
+}
+div#q2{
+    background-image: repeating-radial-gradient(circle at 100%, #333, #333 10px, #eee 10px, #eee 20px);
+}
+div#q3{
+    background-image: url(../img/pattern004.png);
+}
