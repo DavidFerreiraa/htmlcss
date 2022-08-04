@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    --fontsize1: min(3rem, 3.7vw);
+}
+
+body {
+    min-height: 100vh;
+    background-color: grey;
+    font-family: var(--fonte1);
+}
+header {
+
+    background: black;
+    color: white;
+    text-align: center;
+}
+h1 {
+
+    padding: 50px 0px 0px;
+    text-size-adjust: 80%;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+p {
+    padding: 0px 0px 50px;
+}
+.sfundo{
+    background-color: white;
+}
+#fundo1 {
+    background-image: url("../../assets/img/background001.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+}
+#fundo2 {
+    background-image: url("../../assets/img/background002.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+}
+.cfundo {
+    box-shadow: inset 0 0 2em rgb(0, 0, 0);
+}
+.cfundo > article {
+    width: 45vw;
+}
+.cfundo > article > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 5px 0px;
+}
+article {
+    font-family: var(--fonte3);
+    padding: 113px 30px;
+    font-size: var(--fontsize1);
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+footer > p {
+    padding: 10px 0px;
+}
