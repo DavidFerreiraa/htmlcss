@@ -2,7 +2,17 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
 td {
+    text-align: center;
     height: 10vh;
     border: 2px solid black;
+}
+
+.importante {
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.dadoesp {
+    background-color: gold;
 }
