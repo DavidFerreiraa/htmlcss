@@ -2,7 +2,7 @@
 
     position: relative;
     height: 99vh;
-    background: lightblue url("../assets/img/target001.png") center center no-repeat;
+    background: lightblue url("../../assets/img/target001.png") center center no-repeat;
     background-size: 100% 100%;
 }
 #conteudo {
@@ -10,7 +10,7 @@
     position: absolute;
     height: 40vh;
     width: 50vh;
-    background: red url("../assets/img/target001.png") center center no-repeat;
+    background: red url("../../assets/img/target001.png") center center no-repeat;
     background-size: 100% 100%;
     border-radius: 50%;
     transform: translate(-50%, -50%);

@@ -4,7 +4,7 @@
 }
 
 body {
-    background: black url("../assets/img/wallpaper002.jpg") center center no-repeat fixed;
+    background: black url("../../assets/img/wallpaper002.jpg") center center no-repeat fixed;
     background-size: cover;
     height: 100vh;
 }

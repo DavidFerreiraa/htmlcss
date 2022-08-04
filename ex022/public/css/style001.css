@@ -15,5 +15,5 @@ div#q2{
     background-image: repeating-radial-gradient(circle at 100%, #333, #333 10px, #eee 10px, #eee 20px);
 }
 div#q3{
-    background-image: url(../assets/img/pattern004.png);
+    background-image: url(../../assets/img/pattern004.png);
 }
