@@ -5,6 +5,7 @@ table {
 
 td {
     text-align: center;
+    vertical-align: top;
     height: 10vh;
     border: 2px solid black;
 }
