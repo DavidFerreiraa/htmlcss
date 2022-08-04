@@ -1,7 +1,7 @@
 body {
 
     height: 98vh;
-    background-image: url("../img/pattern002.png");
+    background-image: url("../assets/img/pattern002.png");
     background-repeat: no-repeat;
     background-position: center center;
     border: 5px double black;
