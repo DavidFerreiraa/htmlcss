@@ -15,9 +15,18 @@ table {
 
 .importante {
     background-color: rgb(83, 83, 83);
+    color: #FFF;
 }
 
 .dado {
     border: 1px solid #000;
     height: 4vh;
+}
+
+.num {
+    text-align: right;
+}
+
+.small {
+    width: 15vw;
 }
