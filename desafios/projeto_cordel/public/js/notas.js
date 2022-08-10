@@ -1,33 +1,40 @@
-// Notas de Matemática
-nota1mat = document.querySelector("#nota1mat")
-nota2mat = document.querySelector("#nota2mat")
-mediamat = document.querySelector("#mediamat")
 
-// Notas de Física
-nota1fis = document.querySelector("#nota1fis")
-nota2fis = document.querySelector("#nota2fis")
-mediafis = document.querySelector("#mediafis")
+let btn = document.querySelector("#btnenvio")
 
-// Notas de Química
-nota1qui = document.querySelector("#nota1qui")
-nota2qui = document.querySelector("#nota2qui")
-mediaqui = document.querySelector("#mediaqui")
+btn.addEventListener('click', () => {
 
-// Notas de Biologia
-nota1bio = document.querySelector("#nota1bio")
-nota2bio = document.querySelector("#nota2bio")
-mediabio = document.querySelector("#mediabio")
+    let nota1mat = parseFloat(document.querySelector("#nota1mat").value)
+    let nota2mat = parseFloat(document.querySelector("#nota2mat").value)
+    let mediamat = document.querySelector("#mediamat")
 
-// Notas de História
-nota1hist = document.querySelector("#nota1hist")
-nota2hist = document.querySelector("#nota2hist")
-mediahist = document.querySelector("#mediahist")
+    // Notas de Física
+    let nota1fis = parseFloat(document.querySelector("#nota1fis").value)
+    let nota2fis = parseFloat(document.querySelector("#nota2fis").value)
+    let mediafis = document.querySelector("#mediafis")
 
-// Notas de Geografia
-nota1geo = document.querySelector("#nota1geo")
-nota2geo = document.querySelector("#nota2geo")
-mediageo = document.querySelector("#mediageo")
+    // Notas de Química
+    let nota1qui = parseFloat(document.querySelector("#nota1qui").value)
+    let nota2qui = parseFloat(document.querySelector("#nota2qui").value)
+    let mediaqui = document.querySelector("#mediaqui")
 
-//Médias gerais
-mediatotalexatas = document.querySelector("#mediatotalexatas")
-mediatotalhumanas = document.querySelector("#mediatotalhumanas")
+    // Notas de Biologia
+    let nota1bio = parseFloat(document.querySelector("#nota1bio").value)
+    let nota2bio = parseFloat(document.querySelector("#nota2bio").value)
+    let mediabio = document.querySelector("#mediabio")
+
+    // Notas de História
+    let nota1hist = parseFloat(document.querySelector("#nota1hist").value)
+    let nota2hist = parseFloat(document.querySelector("#nota2hist").value)
+    let mediahist = document.querySelector("#mediahist")
+
+    // Notas de Geografia
+    let ota1geo = parseFloat(document.querySelector("#nota1geo").value)
+    let nota2geo = parseFloat(document.querySelector("#nota2geo").value)
+    let mediageo = document.querySelector("#mediageo")
+
+    //Médias gerais
+    let mediatotalexatas = document.querySelector("#mediatotalexatas")
+    let mediatotalhumanas = document.querySelector("#mediatotalhumanas")
+
+    mediamat.innerHTML = ((nota1mat + nota2mat) / 2)
+})
