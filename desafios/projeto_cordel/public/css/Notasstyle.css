@@ -20,6 +20,13 @@ th {
 th, td {
     border: 1px solid #000;
 }
+button {
+    width: 30vh;
+    background-color: rgb(40, 119, 24);
+    border-radius: 10px 0px;
+    cursor: pointer;
+}
+
 .importante {
     background-color: grey;
     color: #FFF;
