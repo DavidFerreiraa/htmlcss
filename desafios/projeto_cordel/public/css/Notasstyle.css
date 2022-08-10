@@ -12,6 +12,7 @@ table {
     width: 80%;
     height: 40vh;
     border-collapse: collapse;
+    box-shadow: 10px 5px 5px rgba(124, 124, 124, 0.822);
 }
 
 th {
@@ -21,10 +22,14 @@ th, td {
     border: 1px solid #000;
 }
 button {
+    margin-top: 50px;
     width: 30vh;
     background-color: rgb(40, 119, 24);
     border-radius: 10px 0px;
     cursor: pointer;
+}
+button:hover {
+    background-color: rgb(32, 82, 22);
 }
 
 .importante {
