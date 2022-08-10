@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    height: 40vh;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+}
+th, td {
+    border: 1px solid #000;
+}
+.importante {
+    background-color: grey;
+    color: #FFF;
+}
+.media {
+    font-weight: bold;
+}

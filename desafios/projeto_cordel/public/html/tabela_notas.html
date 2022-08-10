@@ -8,6 +8,70 @@
     <title>Notas</title>
 </head>
 <body>
-    
+    <script src="../js/notas.js" defer></script>
+    <table>
+        <thead class="importante">
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td><input id="nota1mat"></input></td>
+                <td><input id="nota2mat"></input></td>
+                <td class="media" id="mediamat"></td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td><input id="nota1fis"></input></td>
+                <td><input id="nota2fis"></input></td>
+                <td class="media" id="mediafis"></td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td><input id="nota1qui"></input></td>
+                <td><input id="nota2qui"></input></td>
+                <td class="media" id="mediaqui"></td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td><input id="nota1bio"></input></td>
+                <td><input id="nota2bio"></input></td>
+                <td class="media" id="mediabio"></td>
+            </tr>
+            <tr class="importante">
+                <th colspan="4" scope="row">Média de Exatas</th>
+                <td class="media" id="mediatotalexatas">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td><input id="nota1hist"></input></td>
+                <td><input id="nota2hist"></input></td>
+                <td class="media" id="mediahist"></td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td><input id="nota1geo"></input></td>
+                <td><input id="nota2geo"></input></td>
+                <td class="media" id="mediageo"></td>
+            </tr>
+        </tbody>
+        <tfoot class="importante">
+            <tr>
+                <th colspan="4" scope="row">Média de Humanas</th>
+                <td class="media" id="mediatotalhumanas">0.0</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
