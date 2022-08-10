@@ -1,6 +1,9 @@
 let totalhabitantes = document.querySelector(".resultado")
-let populationlist = document.querySelectorAll("#popul")
+let populationlist = document.querySelectorAll(".popul")
+let totalhab = 0
 
 populationlist.forEach((element) => {
-    Number(totalhabitantes.innerHTML) += Number(totalhabitantes.innerHTML) + Number(element)
+    totalhab += parseInt(element.innerHTML)
 });
+
+totalhabitantes.innerHTML = totalhab
