@@ -28,7 +28,7 @@ btn.addEventListener('click', () => {
     let mediahist = document.querySelector("#mediahist")
 
     // Notas de Geografia
-    let ota1geo = parseFloat(document.querySelector("#nota1geo").value)
+    let nota1geo = parseFloat(document.querySelector("#nota1geo").value)
     let nota2geo = parseFloat(document.querySelector("#nota2geo").value)
     let mediageo = document.querySelector("#mediageo")
 
