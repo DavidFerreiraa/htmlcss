@@ -51,6 +51,10 @@ th:not(.importante), td:not(.importante){
     background-color: #FFF;
 }
 
+div#container {
+    overflow-x: scroll;
+}
+
 button {
     margin-top: 50px;
     width: 30vh;
