@@ -9,85 +9,89 @@
 </head>
 <body>
     <script src="../js/notas.js" defer></script>
-    <table>
-        <thead class="importante">
-            <tr>
-                <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2" scope="col">Disciplina</th>
-                <th colspan="4" scope="colgroup">Notas</th>
-                <th rowspan="2" scope="col">Média</th>
-            </tr>
-            <tr>
-                <th scope="col">Nota 1</th>
-                <th scope="col">Nota 2</th>
-                <th scope="col">Nota 3</th>
-                <th scope="col">Nota 4</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="4" scope="rowgroup" class="importante">Exatas</th>
-                <td>Matemática</td>
-                <td><input id="nota1mat"></input></td>
-                <td><input id="nota2mat"></input></td>
-                <td><input id="nota3mat"></input></td>
-                <td><input id="nota4mat"></input></td>
-                <td class="media importante" id="mediamat">0</td>
-            </tr>
-            <tr>
-                <td>Física</td>
-                <td><input id="nota1fis"></input></td>
-                <td><input id="nota2fis"></input></td>
-                <td><input id="nota3fis"></input></td>
-                <td><input id="nota4fis"></input></td>
-                <td class="media importante" id="mediafis">0</td>
-            </tr>
-            <tr>
-                <td>Química</td>
-                <td><input id="nota1qui"></input></td>
-                <td><input id="nota2qui"></input></td>
-                <td><input id="nota3qui"></input></td>
-                <td><input id="nota4qui"></input></td>
-                <td class="media importante" id="mediaqui">0</td>
-            </tr>
-            <tr>
-                <td>Biologia</td>
-                <td><input id="nota1bio"></input></td>
-                <td><input id="nota2bio"></input></td>
-                <td><input id="nota3bio"></input></td>
-                <td><input id="nota4bio"></input></td>
-                <td class="media importante" id="mediabio">0</td>
-            </tr>
-            <tr class="importante">
-                <th colspan="6" scope="row">Média de Exatas</th>
-                <td class="media importante" id="mediatotalexatas">0.0</td>
-            </tr>
-            <tr>
-                <th rowspan="2" scope="rowgroup" class="importante">Humanas</th>
-                <td>História</td>
-                <td><input id="nota1hist"></input></td>
-                <td><input id="nota2hist"></input></td>
-                <td><input id="nota3hist"></input></td>
-                <td><input id="nota4hist"></input></td>
-                <td class="media importante" id="mediahist">0</td>
-            </tr>
-            <tr>
-                <td>Geografia</td>
-                <td><input id="nota1geo"></input></td>
-                <td><input id="nota2geo"></input></td>
-                <td><input id="nota3geo"></input></td>
-                <td><input id="nota4geo"></input></td>
-                <td class="media importante" id="mediageo">0</td>
-            </tr>
-        </tbody>
-        <tfoot class="importante">
-            <tr>
-                <th colspan="6" scope="row">Média de Humanas</th>
-                <td class="media importante" id="mediatotalhumanas">0.0</td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <button type="submit" id="btnenvio">Enviar</button>
+    <nav class="navigation-bar">
+        <img src="../../assets/img/IFAL_Macei_vertical-removebg-preview.png" alt="Logo IFAL" id="logo-ifal">
+    </nav>
+    <main>
+        <table>
+            <thead class="importante">
+                <tr>
+                    <th rowspan="2" scope="col" class="importante">Área</th>
+                    <th rowspan="2" scope="col" class="importante">Disciplina</th>
+                    <th colspan="4" scope="colgroup" class="importante">Notas</th>
+                    <th rowspan="2" scope="col" class="importante">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="importante">Nota 1</th>
+                    <th scope="col" class="importante">Nota 2</th>
+                    <th scope="col" class="importante">Nota 3</th>
+                    <th scope="col" class="importante">Nota 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4" scope="rowgroup" class="importante">Exatas</th>
+                    <td>Matemática</td>
+                    <td><input id="nota1mat"></input></td>
+                    <td><input id="nota2mat"></input></td>
+                    <td><input id="nota3mat"></input></td>
+                    <td><input id="nota4mat"></input></td>
+                    <td class="media importante" id="mediamat">0</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td><input id="nota1fis"></input></td>
+                    <td><input id="nota2fis"></input></td>
+                    <td><input id="nota3fis"></input></td>
+                    <td><input id="nota4fis"></input></td>
+                    <td class="media importante" id="mediafis">0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td><input id="nota1qui"></input></td>
+                    <td><input id="nota2qui"></input></td>
+                    <td><input id="nota3qui"></input></td>
+                    <td><input id="nota4qui"></input></td>
+                    <td class="media importante" id="mediaqui">0</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td><input id="nota1bio"></input></td>
+                    <td><input id="nota2bio"></input></td>
+                    <td><input id="nota3bio"></input></td>
+                    <td><input id="nota4bio"></input></td>
+                    <td class="media importante" id="mediabio">0</td>
+                </tr>
+                <tr class="importante">
+                    <th colspan="6" scope="row" class="importante">Média de Exatas</th>
+                    <td class="media importante" id="mediatotalexatas">0.0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="rowgroup" class="importante">Humanas</th>
+                    <td>História</td>
+                    <td><input id="nota1hist"></input></td>
+                    <td><input id="nota2hist"></input></td>
+                    <td><input id="nota3hist"></input></td>
+                    <td><input id="nota4hist"></input></td>
+                    <td class="media importante" id="mediahist">0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td><input id="nota1geo"></input></td>
+                    <td><input id="nota2geo"></input></td>
+                    <td><input id="nota3geo"></input></td>
+                    <td><input id="nota4geo"></input></td>
+                    <td class="media importante" id="mediageo">0</td>
+                </tr>
+            </tbody>
+            <tfoot class="importante">
+                <tr>
+                    <th colspan="6" scope="row" class="importante">Média de Humanas</th>
+                    <td class="media importante" id="mediatotalhumanas">0.0</td>
+                </tr>
+            </tfoot>
+        </table>
+        <button type="submit" id="btnenvio">Enviar</button>
+    </main>
 </body>
 </html>

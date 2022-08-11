@@ -1,21 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
     background-image: url("../../assets/img/g128.png");
-    background-position: cover;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 96vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav > #logo-ifal{
+    background-image: radial-gradient(closest-side, rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0));
+    /* margin: 20px 0px 0px 20px; */
+    padding: 20px;
+    width: 8vh;
+}
+#logo-ifal:hover {
+    cursor: pointer;
+}
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 96vh;
+    height: 92%;
 }
-
 table {
+    background-image: linear-gradient(45deg, rgb(1, 90, 1), rgb(3, 196, 3));
     width: 80%;
     height: 40vh;
     border-collapse: collapse;
-    box-shadow: 5px 5px 5px rgba(124, 124, 124, 0.822);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.822);
     border-radius: 10px;
 }
 
@@ -23,25 +45,26 @@ th {
     font-weight: bold;
     border: 2px solid #000;
 }
-.importante ~ th, td {
+th:not(.importante), td:not(.importante){
+    color: #000;
     border: 1px solid #000;
     background-color: #FFF;
 }
+
 button {
     margin-top: 50px;
     width: 30vh;
     height: 3vh;
-    background-color: rgb(40, 119, 24);
-    box-shadow: 5px 5px 5px rgba(124, 124, 124, 0.822);
+    background-image: linear-gradient(45deg, rgb(1, 90, 1), rgb(3, 196, 3));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.822);
     border-radius: 10px 0px;
     cursor: pointer;
 }
 button:hover {
-    background-color: rgb(32, 82, 22);
+    background-image: linear-gradient(45deg, rgb(0, 68, 0), rgb(0, 156, 0));
 }
 
 .importante {
-    background-color: grey;
     color: #FFF;
     border: 2px solid #000;
 }
