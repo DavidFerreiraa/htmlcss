@@ -37,4 +37,9 @@ btn.addEventListener('click', () => {
     let mediatotalhumanas = document.querySelector("#mediatotalhumanas")
 
     mediamat.innerHTML = ((nota1mat + nota2mat) / 2)
+    mediafis.innerHTML = ((nota1fis + nota2fis) / 2)
+    mediaqui.innerHTML = ((nota1qui + nota2qui) / 2)
+    mediabio.innerHTML = ((nota1bio + nota2bio) / 2)
+    mediahist.innerHTML = ((nota1hist + nota2hist) / 2)
+    mediageo.innerHTML = ((nota1geo + nota2geo) / 2)
 })
