@@ -1,4 +1,6 @@
 body {
+    background-image: url("../../assets/img/g128.png");
+    background-position: cover;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     display: flex;
@@ -19,9 +21,11 @@ table {
 
 th {
     font-weight: bold;
+    border: 2px solid #000;
 }
-th, td {
+.importante ~ th, td {
     border: 1px solid #000;
+    background-color: #FFF;
 }
 button {
     margin-top: 50px;
@@ -39,6 +43,7 @@ button:hover {
 .importante {
     background-color: grey;
     color: #FFF;
+    border: 2px solid #000;
 }
 .media {
     font-weight: bold;
