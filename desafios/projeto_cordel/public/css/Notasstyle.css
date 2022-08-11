@@ -3,16 +3,18 @@ body {
     font-size: larger;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
     text-align: center;
+    justify-content: center;
+    height: 96vh;
 }
 
 table {
     width: 80%;
     height: 40vh;
     border-collapse: collapse;
-    box-shadow: 10px 5px 5px rgba(124, 124, 124, 0.822);
+    box-shadow: 5px 5px 5px rgba(124, 124, 124, 0.822);
+    border-radius: 10px;
 }
 
 th {
@@ -24,7 +26,9 @@ th, td {
 button {
     margin-top: 50px;
     width: 30vh;
+    height: 3vh;
     background-color: rgb(40, 119, 24);
+    box-shadow: 5px 5px 5px rgba(124, 124, 124, 0.822);
     border-radius: 10px 0px;
     cursor: pointer;
 }
